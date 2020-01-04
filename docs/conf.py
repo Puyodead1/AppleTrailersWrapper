@@ -20,6 +20,7 @@ import groundwork_sphinx_theme
 project = 'AppleTrailersWrapper'
 copyright = '2020, Puyodead1'
 author = 'Puyodead1'
+master_doc = 'index'
 
 # The short X.Y version
 version = '1.0'
