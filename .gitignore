@@ -1,8 +1,10 @@
 .idea
 AppleTrailersWrapper.egg-info
-generate_docs.bat
+*.bat
+
 # sphinx build folder
 docs/_build
+
 __pycache__
 AppleTrailersWrapper/__pycache__/
 dist/
