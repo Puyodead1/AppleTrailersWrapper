@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="AppleTrailersWrapper",
-    version="1.0.0",
+    version="1.0.1",
     author="Puyodead1",
     author_email="puyodead@protonmail.com",
     description="Simple package that wraps Apple Trailers",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Development Status :: 4 - Beta"
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
 )

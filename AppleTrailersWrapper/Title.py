@@ -142,9 +142,9 @@ class Title:
 
     def get_related(self):
         """
-        get instance of Related class
+        get list of instance of Related class
 
-        :return: instance of Related class
+        :return: list of instances of Related class
         """
         return [Related(x) for x in self.title_dict["related"]["items"]]
 
