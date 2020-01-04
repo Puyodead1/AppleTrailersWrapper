@@ -5,3 +5,4 @@ generate_docs.bat
 docs/_build
 __pycache__
 AppleTrailersWrapper/__pycache__/
+dist/

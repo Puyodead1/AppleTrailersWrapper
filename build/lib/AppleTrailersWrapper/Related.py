@@ -5,6 +5,7 @@ class Related:
     def get_item(self):
         """
         Returns the original related_item_dict
+
         :return: dict
         """
         return self.related_item_dict
