@@ -17,6 +17,30 @@ class Title:
         """
         return self.search_dict
 
+    def get_poster_url(self):
+        """
+        gets the poster url
+
+        :return: string
+        """
+        return self.search_dict["poster"]
+
+    def get_studio(self):
+        """
+        gets the studio name
+
+        :return: string
+        """
+        return self.search_dict["studio"]
+
+    def get_genres(self):
+        """
+        get genre list
+
+        :return: list
+        """
+        return self.search_dict["genre"]
+
     def get_title_dict(self):
         """
         Returns the title dict
