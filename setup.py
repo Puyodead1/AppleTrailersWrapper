@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="AppleTrailersWrapper",
-    version="1.0.3",
+    version="1.0.4",
     author="Puyodead1",
     author_email="puyodead@protonmail.com",
     description="Simple package that wraps Apple Trailers",
